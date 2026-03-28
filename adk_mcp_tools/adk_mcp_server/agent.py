@@ -19,7 +19,7 @@ from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, \
                     StdioServerParameters, StdioConnectionParams
 
 # IMPORTANT: Replace this with the ABSOLUTE path to your adk_server.py script
-PATH_TO_YOUR_MCP_SERVER_SCRIPT = "/home/student_02_1e238f2ab260/adk_mcp_tools/adk_mcp_server/adk_server.py"
+PATH_TO_YOUR_MCP_SERVER_SCRIPT = "/home/boy/adk_mcp_tools/adk_mcp_server/adk_server.py"
 
 retry_options = HttpRetryOptions(initial_delay=1, attempts=6)
 
